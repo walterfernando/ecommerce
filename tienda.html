@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cigarreria Punto Express</title>
+</head>
+<body>
+    <div class="contenedor">
+        <!-- ENCABEZADO PRINCIPAL: LOGO MENU CARRITO -->
+        <header>
+            <div class="logo-titulo">
+                <a href="index.html">
+                    <i class="fa-regular fa-circle-dot"></i>
+                    <h1>Cigarreria Punto Express</h1>
+                </a>
+            </div>
+            <nav id="nav">
+                <a href="index.html" class="selected">Inicio</a>
+                <a href="tienda.html">Tienda</a>
+                <a href="contacto.html">Contacto</a>
+                <!-- icono cerrar menu responsive -->
+                <span id="close-responsive">
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </nav>
+            <!-- icono menu responsive -->
+            <div id="nav-responsive">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+            <div class="carrito">
+                <span class="total-compra">$00.00</span>
+                <a href="carrito.html">
+                    <span class="icono-carrito">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <div class="total-item-carrito">
+                            0
+                        </div>
+                    </span>
+                </a>
+            </div>
+        </header>
+
+
+        <section class="contenedor-seccion">
+            <div class="fondo-seccion"></div>
+            <div class="header-seccion">
+                <div class="col">
+                    <strong><span class="link-blanco">Inicio</span> / Tienda</strong>
+                </div>
+                <div class="centro">
+                    <h2>Shop</h2>
+                </div>
+                <div class="col busqueda">
+                    <strong>Resultados (1-9)</strong> 
+                    <select name="" id="">
+                        <option value="">Todos los productos</option>
+                        <option value="">Por precio</option>
+                        <option value="">Por modelo</option>
+                    </select>
+                </div>
+            </div>
+
+            <section id="productos" class="productos">
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_agua.png" alt="">
+                                <h2>Agua en diferentes tamaños, botellas y sabores.</h2>
+                                <h2>Desde $1.500 a $20.000</h2>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="producto2.html">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_aseo.png" alt="">
+                                <h2>Productos de aseo, limpido, detergente, jabon de tocador, etc.</h2>
+                                <h2>Desde $5.000 a $65.000</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="#">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_cigarrillos.png" alt="">
+                                <h2>Productos de cigarrillos de diferentes marcas nacional e internacional</h2>
+                                <h2>Desde $2.500 a $35.000</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="#">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_cocacola.png" alt="">
+                                <h2>Productos Coca Cola en diferentes sabores y tamaños</h2>
+                                <h2>Desde $2.000 a $64.000</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="#">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_dulces.png" alt="">
+                                <h2>Productos Dulces de Chocolate Diversificado</h2>
+                                <h2>Desde $2.000 a $37.999</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="#">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_galletas.png" alt="">
+                                <h2>Productos Galletas de la marca Festival y otras</h2>
+                                <h2>Pack Surtido $24.000</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="fila">
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        <a href="producto1.html">
+                            <div class="contenido">
+                                <div class="fondo orange">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_helados.png" alt="">
+                                <h2>Productos de Heladeria: Conos, Paletas, Vasos</h2>
+                                <h2>Desde 3.600 a $40.000</h2>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="producto2.html">
+                            <div class="contenido">
+                                <div class="fondo blue">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_licores.png" alt="">
+                                <h2>Productos de Licoreria: Cervezas, Whiskeys, Tequilas, entre otros.</h2>
+                                <h2>Desde $5.000 a $389.000</h2>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col fondo-dots">
+                        <header>
+                            <span class="like"><i class="fa-solid fa-heart"></i></span>
+                            <span class="cart"><i class="fa-solid fa-bag-shopping"></i></span>
+                        </header>
+                        
+                        <a href="#">
+                            <div class="contenido">
+                                <div class="fondo green">
+                                    <div class="circulo"></div>
+                                </div>
+                                <img src="/img/productos_papas.png" alt="">
+                                <h2>Productos de papas tipo Lays en diferentes sabores</h2>
+                                <h2>Pack de 8 uni. $45.000</h2>
+                            </div>
+                        </a>
+                    </div>
+                </div>                
+            </section>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
